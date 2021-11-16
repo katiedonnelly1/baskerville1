@@ -12,12 +12,6 @@
 body {
     background: #f7f7f7;
     color: #333333
-    font-family: baskerville-urw, serif;
-    /*font-family: mrs-eaves, serif;
-    font-family: bookmania, serif;
-    font-family: warnock-pro-display, serif;*/
-    font-weight: 400;
-    font-style: normal;
 }
 
 
@@ -29,7 +23,9 @@ section, header, footer {
 
 
 /*-- Styling Typography --*/
-h1, h2, blockquote {
+
+h1, h2, h3 {
+    font-weight: normal;
     color: #00AEA3;
 }
 
@@ -51,7 +47,7 @@ blockquote {
     font-size: 1.414rem;
     font-style: italic;
     hanging-punctuation: first;
-    text-indent: -0.75rem;
+    text-indent: -0.42rem;
 }
 
 cite {
@@ -77,6 +73,10 @@ header p {
 a{
     color: #00AEA3;
     text-decoration: none;
+}
+
+a:visited {
+    color: #00AEA3;
 }
 
 a:hover {
@@ -106,10 +106,15 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 20px;
+    background: none;
 }
 
 nav a {
     color: #f7f7f7;
+}
+
+nav a:visited {
+    color: #45e6db;
 }
 
 nav a:hover {
@@ -126,8 +131,10 @@ hr{
     border: 0 none;
 }
 
+/*-- Footer --*/
+
 footer {
     text-align: center;
-    font-size: 0.75rem;
-    margin: 6em 0 3em;
+    font-size: 0.707rem;
+    margin: 5em 0 8em 0;
 }
