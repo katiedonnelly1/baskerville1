@@ -12,6 +12,12 @@
 body {
     background: #f7f7f7;
     color: #333333
+    font-family: baskerville-urw, serif;
+    /*font-family: mrs-eaves, serif;
+    font-family: bookmania, serif;
+    font-family: warnock-pro-display, serif;*/
+    font-weight: 400;
+    font-style: normal;
 }
 
 
