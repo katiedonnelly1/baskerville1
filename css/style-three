@@ -44,5 +44,10 @@ header h2 {
 header p {
     padding-bottom: 4rem;
     font-size: 1.3rem;
-    
+
+}
+
+h1 {
+    font-size: 5.653rem;
+
 }
