@@ -29,4 +29,11 @@ section {
 
 header h1, h2, p {
     color: #f7f7f7;
+    padding: 2rem 0;
+}
+
+header h2 {
+    font-style: italic;
+    font-size: 2.827rem;
+    color: #45e6db;
 }
