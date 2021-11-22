@@ -40,3 +40,9 @@ header h2 {
     margin-bottom: -2rem;
     text-indent: 1.5rem;
 }
+
+header p {
+    padding-bottom: 4rem;
+    font-size: 1.3rem;
+    
+}
