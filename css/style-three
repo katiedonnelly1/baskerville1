@@ -23,7 +23,7 @@ section {
     margin-bottom: 4rem;
 }
 
-.dark {background: #00AEA3;}
+.dark {background: #760071;}
 
 /*-- Typographic Styling --*/
 
@@ -44,7 +44,7 @@ header h2 {
 header p {
     padding-bottom: 4rem;
     font-size: 1.3rem;
-
+    color: #f7f7f7;
 }
 
 h1 {
@@ -54,4 +54,8 @@ h1 {
 
 h1, h2 {
     color: #760071;
+}
+
+p {
+    color: #333;
 }
