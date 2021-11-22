@@ -10,6 +10,7 @@
 body {
     background: #f7f7f7;
     color: #333;
+    font-family: baskerville-display-pt, serif;
 }
 
 section, header, footer {
@@ -23,10 +24,10 @@ section {
     margin-bottom: 4rem;
 }
 
-.dark {background: #760071;}
+.dark {background: #2E5559;}
 
 .light {
-    background: #FFE9C4;
+    background: #F2F0E9;
     padding: 3rem 0;
 }
 
@@ -58,7 +59,7 @@ h1 {
 }
 
 h1, h2 {
-    color: #760071;
+    color: #2E5559;
 }
 
 p {
@@ -75,7 +76,7 @@ h2 {
 blockquote {
     font-style: italic;
     font-size: 1.999rem;
-    color: #760071;
+    color: #AABDBF;
     hanging-punctuation: first;
     text-indent: -0.9rem;
 }
@@ -83,13 +84,13 @@ blockquote {
 cite {
     font-style: normal;
     font-size: 0.75em;
-    color: #333;
+    color: #6f7c7e;
 }
 
 /*-- Style Links --*/
 
 a {
-    color: #760071;
+    color: #2E5559;
     text-decoration: none;
 }
 
@@ -104,7 +105,7 @@ nav {
         left: 0;
         margin: 0;
         width: 100%;
-        background: #760071;
+        background: #2E5559;
         padding: 2em 0;
         font-size: 0.75rem;
     }
@@ -126,19 +127,19 @@ nav {
     }
     
     nav a:visited {
-        color: #760071;
+        color: #2E5559;
     }
     
     nav a:hover {
         border-bottom: none;
-        color: #760071;
+        color: #2E5559;
         transition: all 0.3s ease-in-out;
     }
     
     hr{
         margin: 100px 0;
         height: 1px;
-        background-color: #760071;
-        color: #760071;
+        background-color: #2E5559;
+        color: #2E5559;
         border: 0 none;
     }
