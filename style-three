@@ -27,3 +27,6 @@ section {
 
 /*-- Typographic Styling --*/
 
+header h1, h2, p {
+    color: #f7f7f7;
+}
