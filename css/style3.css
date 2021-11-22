@@ -91,5 +91,50 @@ a {
 a:hover {
     color: #333;
     border-bottom: 1px dotted;
+}
+
+nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        background: #760071;
+        padding: 2em 0;
+        font-size: 0.75rem;
+    }
     
+    nav ul {
+        text-align: center;
+        text-transform: upper-case;
+        letter-spacing: 1px;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 20px;
+        background: none;
+    }
+    
+    nav a {
+        color: #f7f7f7;
+    }
+    
+    nav a:visited {
+        color: #760071;
+    }
+    
+    nav a:hover {
+        border-bottom: none;
+        color: #760071;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    hr{
+        margin: 100px 0;
+        height: 1px;
+        background-color: #760071;
+        color: #760071;
+        border: 0 none;
+    }
 }
