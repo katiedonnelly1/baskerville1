@@ -19,3 +19,9 @@ section, header, footer {
     padding: 0;
 }
 
+section {
+    margin-bottom: 4rem;
+}
+
+/*-- Typographic Styling --*/
+
