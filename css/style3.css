@@ -35,7 +35,7 @@ header h1, h2, p {
 header h2 {
     font-style: italic;
     font-size: 2.827rem;
-    color: #45e6db;
+    color: #f7f7f7;
     margin-top: -4rem;
     margin-bottom: -2rem;
     text-indent: 1.5rem;
@@ -65,4 +65,31 @@ p {
 h2 {
     font-size: 1.999rem;
     margin: 3em 0 1em 0;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.999rem;
+    color: #760071;
+    hanging-punctuation: first;
+    text-indent: -0.9rem;
+}
+
+cite {
+    font-style: normal;
+    font-size: 0.75em;
+    color: #333;
+}
+
+/*-- Style Links --*/
+
+a {
+    color: #760071;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    border-bottom: 1px dotted;
+    
 }
