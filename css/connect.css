@@ -28,11 +28,11 @@
         margin: 2em auto;}
   
   .connections a:hover svg path {
-        fill: #F2EDD0;
+        fill: #333;
         transition: all 0.2s ease-in-out;}
   
   footer .connections a:hover svg path {
-          fill:  #F2EDD0;
+          fill:  #333;
           transition: all 0.2s ease-in-out;}
   
 

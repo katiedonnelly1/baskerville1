@@ -7,6 +7,8 @@
     line-height: 1em;
 }
 
+/*----- Main Styling, this section lays down the fondations for the main structure of the content ----*/
+
 body {
     background: #f7f7f7;
     color: #333;
@@ -36,14 +38,20 @@ section {
 
 /*-- Typographic Styling --*/
 
+p {
+    font-family: mr-eaves-sans, sans-serif;
+}
+
 header h1, h2, p {
     color: #f7f7f7;
     padding: 2rem 0;
+    font-weight: normal;
 }
 
 header h2 {
     font-style: italic;
     font-size: 2.827rem;
+    font-weight: normal;
     color: #f7f7f7;
     margin-top: -4rem;
     margin-bottom: -2rem;
@@ -65,10 +73,11 @@ h1, h2 {
     color: #2E5559;
 }
 
-p {
+p, footer {
     color: #333;
     padding: 1em 0;
     line-height: 1.4;
+    font-family: mr-eaves-modern, sans-serif;
 }
 
 h2 {
@@ -82,12 +91,14 @@ blockquote {
     color: #AABDBF;
     hanging-punctuation: first;
     text-indent: -0.9rem;
+    line-height: 1.2;
 }
 
 cite {
     font-style: normal;
     font-size: 0.75em;
     color: #AABDBF;
+    transition: all 0.3s ease-in-out;
 }
 
 /*-- Style Links --*/
@@ -101,6 +112,8 @@ a:hover {
     color: #ffffff;
     border-bottom: 1px dotted;
 }
+
+/*-- Styling Nav --*/
 
 nav {
         position: fixed;
@@ -156,4 +169,25 @@ nav {
         max-width: 100%;
     }
 
-    /*-- Footer --*/
+    /*----- Footer -----*/
+
+    footer { 
+        text-align: center;
+        font-size: 0.8em;
+        padding: 2em 0 8em 0;
+        margin: auto;
+    }
+
+    footer p {
+        color: #f7f7f7;
+    }
+
+    footer a {
+        color: #f7f7f7;
+        margin: 0 5px;
+    }
+
+    footer a:hover {
+        color: #000;
+        transition: all 0.3s ease-in-out;
+    }
