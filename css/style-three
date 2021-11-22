@@ -23,7 +23,5 @@ section {
     margin-bottom: 4rem;
 }
 
-.dark {background: #00AEA3;}
-
 /*-- Typographic Styling --*/
 
