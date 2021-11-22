@@ -24,11 +24,14 @@ section {
     margin-bottom: 4rem;
 }
 
-.dark {background: #2E5559;}
+.dark {
+    background: #2E5559;
+    padding: 3rem 0;
+}
 
 .light {
     background: #F2F0E9;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 /*-- Typographic Styling --*/
@@ -90,12 +93,12 @@ cite {
 /*-- Style Links --*/
 
 a {
-    color: #2E5559;
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #333;
+    color: #ffffff;
     border-bottom: 1px dotted;
 }
 
@@ -105,7 +108,7 @@ nav {
         left: 0;
         margin: 0;
         width: 100%;
-        background: #2E5559;
+        background: #0A3640;
         padding: 2em 0;
         font-size: 0.75rem;
     }
@@ -127,12 +130,12 @@ nav {
     }
     
     nav a:visited {
-        color: #2E5559;
+        color: #ffffff;
     }
     
     nav a:hover {
         border-bottom: none;
-        color: #2E5559;
+        color: #AABDBF;
         transition: all 0.3s ease-in-out;
     }
     
@@ -143,3 +146,15 @@ nav {
         color: #2E5559;
         border: 0 none;
     }
+
+    /*-- Image Control --*/
+
+    img {
+        display: block;
+        margin: 4em 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    /*-- Footer --*/
+
