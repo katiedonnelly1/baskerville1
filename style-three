@@ -36,4 +36,7 @@ header h2 {
     font-style: italic;
     font-size: 2.827rem;
     color: #45e6db;
+    margin-top: -4rem;
+    margin-bottom: -2rem;
+    text-indent: 1.5rem;
 }
