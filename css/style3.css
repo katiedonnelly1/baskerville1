@@ -135,7 +135,7 @@ nav {
     
     nav a:hover {
         border-bottom: none;
-        color: #AABDBF;
+        color: #ffffff;
         transition: all 0.3s ease-in-out;
     }
     
@@ -157,4 +157,3 @@ nav {
     }
 
     /*-- Footer --*/
-
