@@ -59,6 +59,7 @@ h1, h2 {
 p {
     color: #333;
     padding: 1em 0;
+    line-height: 1.4;
 }
 
 h2 {
