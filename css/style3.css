@@ -26,8 +26,8 @@ section {
 .dark {background: #760071;}
 
 .light {
-    color: #760071;
-    padding: 3rem;
+    color: #FFE9C4;
+    padding: 3rem 0;
 }
 
 /*-- Typographic Styling --*/
@@ -139,6 +139,6 @@ nav {
         margin: 100px 0;
         height: 1px;
         background-color: #760071;
-        color: #333;
+        color: #760071;
         border: 0 none;
     }
